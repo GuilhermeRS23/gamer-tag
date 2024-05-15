@@ -1,8 +1,11 @@
 :root {
   --fonte-principal: "Play", sans-serif;
-  --branco: #FFFFFF;
+  --cinza: #F0F3FF;
+  --branco: #ffffff;
   --preto: #000000;
-  --cinza: #E2E2E2;
+  --cor-principal: #211951;
+  --cor-secundaria: #836FFF;
+  --cor-terciaria: #15F5BA;
 }
 
 body {

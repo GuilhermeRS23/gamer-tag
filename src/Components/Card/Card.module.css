@@ -1,0 +1,26 @@
+.container{
+    padding: 0 0 1em 0;
+    margin-top: .5em;
+    width: 282px;
+    background-color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 7px solid ;
+    border-right: 7px solid;
+    border-left: 5px solid var(--branco);
+    border-radius: 0px 10px 0px 0px;
+}
+
+.capa{
+    width: 100%;
+}
+
+.container h2,
+.favoritar{
+    padding: 0 1em;
+}
+
+.favoritar{
+    width: 25px;
+}
