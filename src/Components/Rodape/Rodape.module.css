@@ -1,6 +1,6 @@
 .rodape {
     display: flex;
-    background-color: var(--preto);
+    background-color: var(--cor-principal);
     justify-content: center;
 }
 
