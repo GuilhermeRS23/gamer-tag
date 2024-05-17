@@ -1,9 +1,14 @@
 import style from './Card.module.css';
 import iconeFavoritar from './favorite_outline.png';
 import iconeFavorito from './favorite.png';
+import { useFavoritoContext } from 'Contexts/Favoritos';
 
 
-const Card = ({ capa, titulo, id }) => {
+const Card = ({ id, titulo, capa }) => {
+    const { favorito, adicionarFavorito } = useFavoritoContext();
+    const ehFavorito = favorito.some((fav) => fav.id === id);
+    const icone = ehFavorito ? iconeFavorito : iconeFavoritar;
+
     return (
         <div className={style.container}>
             <img src={capa}
@@ -15,8 +20,11 @@ const Card = ({ capa, titulo, id }) => {
             </h2>
 
             <img className={style.favoritar}
-                src={iconeFavoritar}
+                src={icone}
                 alt='Favoritar'
+                onClick={() => {
+                    adicionarFavorito({ id, titulo, capa })
+                }}
             />
         </div>
     )
