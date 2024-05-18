@@ -1,24 +1,21 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Inicio from "./Pages/Inicio";
 import Favoritos from "Pages/Favoritos";
-import Cabecalho from "Components/Cabecalho";
-import Rodape from "Components/Rodape";
-import PadraoContainer from "Components/PadraoContainer";
-import FavoritosProvider from "Contexts/Favoritos";
+import Player from "Pages/Player";
+import Erro404 from "Pages/Erro404";
+import PaginaPadrao from "Pages/PaginaPadrao";
 
 const AppRoutes = () => {
     return (
         <BrowserRouter>
-            <Cabecalho />
-            <PadraoContainer>
-                <FavoritosProvider>
-                    <Routes>
-                        <Route path="/" element={<Inicio />}></Route>
-                        <Route path="/favoritos" element={<Favoritos />}></Route>
-                    </Routes>
-                </FavoritosProvider>
-            </PadraoContainer>
-            <Rodape />
+            <Routes>
+                <Route path="/" element={<PaginaPadrao />}>
+                    <Route index element={<Inicio />}></Route>
+                    <Route path="favoritos" element={<Favoritos />}></Route>
+                    <Route path=":id" element={<Player />}></Route>
+                    <Route path="*" element={<Erro404 />}></Route>
+                </Route>
+            </Routes>
         </BrowserRouter>
 
     )

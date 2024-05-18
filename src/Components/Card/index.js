@@ -2,6 +2,7 @@ import style from './Card.module.css';
 import iconeFavoritar from './favorite_outline.png';
 import iconeFavorito from './favorite.png';
 import { useFavoritoContext } from 'Contexts/Favoritos';
+import { Link } from 'react-router-dom';
 
 
 const Card = ({ id, titulo, capa }) => {
@@ -11,13 +12,15 @@ const Card = ({ id, titulo, capa }) => {
 
     return (
         <div className={style.container}>
-            <img src={capa}
-                alt={titulo}
-                className={style.capa}
-            />
-            <h2>
-                {titulo}
-            </h2>
+            <Link className={style.link} to={`/${id}`}>
+                <img src={capa}
+                    alt={titulo}
+                    className={style.capa}
+                />
+                <h2>
+                    {titulo}
+                </h2>
+            </Link>
 
             <img className={style.favoritar}
                 src={icone}
