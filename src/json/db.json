@@ -1,26 +1,52 @@
-[
-    {
-        "id": 1,
-        "titulo": "Resident Evil 4 Remake - PS5",
-        "capa": "https://m.media-amazon.com/images/I/614fH+Lwa9L._AC_SX679_.jpg",
-        "link": "https://www.youtube.com/embed/O25tjqfHo5c?si=sHWDxYoaCcSSRmO1"
-    },
-    {
-        "id": 2,
-        "titulo": "F1 24 - PS5",
-        "capa": "https://m.media-amazon.com/images/I/61s1V5xqQ9L._AC_SX679_.jpg",
-        "link": "https://www.youtube.com/embed/YKbpm3LQppU?si=LKXDGxYyZIvQUqBL"
-    },
-    {
-        "id": 3,
-        "titulo": "Sekiro Shadows Die Twice - PS4",
-        "capa": "https://m.media-amazon.com/images/I/81DK-nYLmLL._AC_SX679_.jpg",
-        "link": "https://www.youtube.com/embed/EJmpUlOv5kA?si=I3WyBxTB2OvlCd5p"
-    },
-    {
-        "id": 4,
-        "titulo": "Stellar Blade - PS5",
-        "capa": "https://m.media-amazon.com/images/I/81760qbYPxL._AC_SX679_.jpg",
-        "link": "https://www.youtube.com/embed/ZNiyPlPuhjc?si=2bd-zIRa3JnoPKbj"
-    }
-]
+{
+    "jogos": [
+        {
+            "id": 1,
+            "titulo": "Resident Evil 4 Remake - PS5",
+            "capa": "https://m.media-amazon.com/images/I/614fH+Lwa9L._AC_SX679_.jpg",
+            "link": "https://www.youtube.com/embed/O25tjqfHo5c?si=sHWDxYoaCcSSRmO1"
+        },
+        {
+            "id": 2,
+            "titulo": "F1 24 - PS5",
+            "capa": "https://m.media-amazon.com/images/I/61s1V5xqQ9L._AC_SX679_.jpg",
+            "link": "https://www.youtube.com/embed/YKbpm3LQppU?si=LKXDGxYyZIvQUqBL"
+        },
+        {
+            "id": 3,
+            "titulo": "Sekiro Shadows Die Twice - PS4",
+            "capa": "https://m.media-amazon.com/images/I/81DK-nYLmLL._AC_SX679_.jpg",
+            "link": "https://www.youtube.com/embed/EJmpUlOv5kA?si=I3WyBxTB2OvlCd5p"
+        },
+        {
+            "id": 4,
+            "titulo": "Stellar Blade - PS5",
+            "capa": "https://m.media-amazon.com/images/I/81760qbYPxL._AC_SX679_.jpg",
+            "link": "https://www.youtube.com/embed/ZNiyPlPuhjc?si=2bd-zIRa3JnoPKbj"
+        },
+        {
+            "id": 5,
+            "titulo": "Crash N Sane Trilogy - PS4",
+            "capa": "https://m.media-amazon.com/images/I/81ySEA1YeGL._AC_SX425_.jpg",
+            "link": "https://www.youtube.com/embed/-5LmxZtn8WE?si=c2ff1GZ5XectsbSS"
+        },
+        {
+            "id": 6,
+            "titulo": "Uncharted 4 Thief`s End Hits - PS4",
+            "capa": "https://m.media-amazon.com/images/I/81ERgdB4SSL._AC_SX342_.jpg",
+            "link": "https://www.youtube.com/embed/VimD4hu6yrw?si=2XFp2ix06RKGWx4x"
+        },
+        {
+            "id": 7,
+            "titulo": "Dead Space - PS5",
+            "capa": "https://m.media-amazon.com/images/I/61hiBaLHFJL._AC_SX522_.jpg",
+            "link": "https://www.youtube.com/embed/elUtekZYTFY?si=p-h_Bebc7Cno1PjH"
+        },
+        {
+            "id": 8,
+            "titulo": "Marvel's Spider-Man 2 - PS5",
+            "capa": "https://m.media-amazon.com/images/I/81RfcW3Ml-L._AC_SX466_.jpg",
+            "link": "https://www.youtube.com/embed/TuK5vta0G-0?si=FH-eP3okxcwhi29J"
+        }
+    ]
+}
