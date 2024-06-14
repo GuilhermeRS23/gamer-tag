@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Inicio from "./Pages/Inicio";
-import Favoritos from "Pages/Favoritos";
-import Player from "Pages/Player";
-import Erro404 from "Pages/Erro404";
-import PaginaPadrao from "Pages/PaginaPadrao";
+import Inicio from "./pages/Inicio";
+import Favoritos from "./pages/Favoritos";
+import Player from "./pages/Player";
+import Erro404 from "./pages/Erro404";
+import PaginaPadrao from "./pages/PaginaPadrao";
 
 const AppRoutes = () => {
     return (

@@ -1,11 +1,16 @@
 import style from './Card.module.css';
 import iconeFavoritar from './favorite_outline.png';
 import iconeFavorito from './favorite.png';
-import { useFavoritoContext } from 'Contexts/Favoritos';
+import { useFavoritoContext } from '../../contexts/Favoritos';
 import { Link } from 'react-router-dom';
 
+interface Props {
+    id: number
+    titulo?: string | undefined
+    capa?: string | undefined
+}
 
-const Card = ({ id, titulo, capa }) => {
+const Card = ({ id, titulo, capa }: Props) => {
     const { favorito, adicionarFavorito } = useFavoritoContext();
     const ehFavorito = favorito.some((fav) => fav.id === id);
     const icone = ehFavorito ? iconeFavorito : iconeFavoritar;

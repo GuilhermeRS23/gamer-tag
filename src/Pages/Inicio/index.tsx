@@ -1,11 +1,15 @@
-import Banner from "Components/Banner";
-import Titulo from "Components/Titulo";
-import Card from "Components/Card";
+import Banner from "../../components/Banner";
+import Card from "../../components/Card";
+import Titulo from "../../components/Titulo";
 import style from "./Inicio.module.css";
 import { useEffect, useState } from "react";
 
+interface Jogo{
+    id: number
+}
+
 const Inicio = () => {
-    const [jogos, setJogos] = useState([]);
+    const [jogos, setJogos] = useState<Jogo[]>([]);
 
     useEffect(() => {
         fetch('https://my-json-server.typicode.com/GuilhermeRS23/gamer-tag-api/jogos')
