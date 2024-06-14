@@ -9,7 +9,12 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
+<<<<<<< HEAD
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+=======
+Para funcionamento correto é preciso deixar esse site abento onde se encontra a API https://my-json-server.typicode.com/GuilhermeRS23/gamer-tag-api
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+>>>>>>> 7923cc4099cff214029840781bb4b723d0f6d71c
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
